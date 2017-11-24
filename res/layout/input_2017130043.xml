@@ -11,15 +11,6 @@
         android:text="@string/title_input"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <EditText
-        android:id="@+id/txtId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="ID Mobil" >
-
-        <requestFocus />
-    </EditText>
-
     <Spinner
         android:id="@+id/spinnerProd"
         android:layout_width="match_parent"
