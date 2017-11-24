@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Selamat Datang di Aplikasi Pengelola Mobil</string>
+    <string name="app_name">Quiz2_genap_2017130043</string>
+    <string name="title_input">Form Input Mobil</string>
+    <string name="title_list">Daftar Mobil</string>
+    <string name="btn_tambah">Tambah</string>
+    
+    <string-array name="spinnerProdusen">
+    	    <item>Toyota</item>
+    	    <item>BMW</item>
+    	    <item>Nissan</item>
+    	    <item>Honda</item>
+    	    <item>Daihatsu</item>
+    	    <item>Suzuki</item>
+    	    <item>Subaru</item>
+    	    <item>Mazda</item>
+    	    <item>Hino</item>
+    	    <item>Mitsubishi</item>
+    </string-array>
+
+</resources>

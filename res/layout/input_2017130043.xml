@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_input"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Mobil" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerProdusen"
+        android:hint="Produsen Mobil" />
+
+    <EditText
+        android:id="@+id/txtMerk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merk Mobil" />
+
+    <EditText
+        android:id="@+id/txtTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Tahun Mobil" />
+
+    <EditText
+        android:id="@+id/txtHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Harga Mobil" />
+
+    <EditText
+        android:id="@+id/txtUkuran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ukuran CC" />
+
+    <EditText
+        android:id="@+id/txtPenumpang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Jumlah Penumpang" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_tambah" />
+
+</LinearLayout>
